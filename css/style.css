@@ -398,6 +398,7 @@ img {
   height: 60px;
 }
 .constant-logo-link{
+  padding: 16px 32px;
   width: 170px;
   height: 92px;
   border: 1px solid currentColor;
@@ -495,10 +496,56 @@ img {
   color: #ffffff;
 }
 .logo-footer {
+  display: inline-block;
   margin: 0 0 20px 0;
   padding: 0;
 }
+.footer-social-sabtitle{
+  margin-bottom: 20px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1,14;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer-social-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-list-flex{
+  display:inline-flex;
+}
+.footer-social-li .footer-social-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color:rgba(255, 255, 255, 0.1);;
+}
+.footer-social-list .footer-social-li:not(:last-child){
+  margin-right: 10px;
+}
 
+
+
+.footer-social-icon{
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.footer-social-link:focus,
+.footer-social-link:hover{
+  background-color: var(--hover-focus-color);
+}
+.footer-flex{
+  display: flex;
+}
 /*_________ AND FOOTER_________*/
 
 /*=================================================================================*/
