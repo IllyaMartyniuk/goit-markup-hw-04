@@ -6,6 +6,19 @@
   --hover-focus-text-color: #ffffff;
   --main-backgroung-color: #f5f4fa;
 }
+
+  .title {
+  padding: 0;
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  }
+
 .body {
   font-family: var(--main-font);
 }
@@ -281,17 +294,7 @@ img {
 .list-img .li-img:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-.sabtitle-img {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
+
 .list-img {
   padding: 0;
   margin: 0;
@@ -316,17 +319,7 @@ img {
   margin: 0;
   list-style: none;
 }
-.title-team {
-  padding: 0;
-  margin-bottom: 50px;
-  margin-top: 0;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 0.86;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
+
 .li-team {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -386,6 +379,71 @@ img {
   background-color: var(--hover-focus-color);
 }
 /*_________ AND SECTION3_________*
+/*_________ SECTION4_________*/
+.constant-clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.constant-company{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.constant-list{
+  display: flex;
+  justify-content: space-between;
+}
+.constant-logo-icon{
+  width: 160px;
+  height: 60px;
+}
+.constant-logo-link{
+  width: 170px;
+  height: 92px;
+  border: 1px solid currentColor;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #AFB1B8;
+}
+.constant-logo-icon{
+  fill: currentColor;
+}
+.company-icon .constant-logo-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-icon .constant-logo-link:hover,
+.company-icon .constant-logo-link:focus{
+  color: var(--hover-focus-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_________ AND SECTION4_________*
+
+
 /*_________ FOOTER_________*/
 .footer {
   background-color: #2f303a;
