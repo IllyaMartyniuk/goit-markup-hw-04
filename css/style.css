@@ -127,6 +127,17 @@ img {
   text-align: center;
   background-color: #2f303a;
 }
+.hero{
+  background-image: 
+  url(../images/img-hero.jpg);
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .title-hero {
   margin-top: 0;
   margin-bottom: 30px;
@@ -259,8 +270,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .avatar-team {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
 .list-name {
   padding: 0;
@@ -275,13 +285,41 @@ img {
 }
 .list-vacancy {
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.social-list{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social-list-icon{
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.social-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #AFB1B8;
+  
+}  
+.social-list-item .social-list-link:hover,
+.social-list-item .social-list-link:focus{
+  color: var(--hover-focus-text-color);
+  background-color: var(--hover-focus-color);
 }
 /*_________ AND SECTION3_________*
 /*_________ FOOTER_________*/
