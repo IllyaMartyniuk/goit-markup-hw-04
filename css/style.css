@@ -460,6 +460,7 @@ img {
   color: #ffffff;
 }
 .adress {
+  display: inline-block;
   margin: 0px;
 }
 .adress p {
@@ -501,6 +502,7 @@ img {
   padding: 0;
 }
 .footer-social-sabtitle{
+  margin-top: 0;
   margin-bottom: 20px;
   font-family: var(--main-font);
   font-weight: 700;
@@ -543,8 +545,24 @@ img {
 .footer-social-link:hover{
   background-color: var(--hover-focus-color);
 }
-.footer-flex{
+
+
+.container-footer-adress{
+display: inline-flex;
+flex-direction: column;
+margin-right: 70px;
+}
+.container-footer-flex{
   display: flex;
+}
+
+
+.container-social-list-flex{
+  display: inline-block;
+}
+.container-footer-contact{
+  display: flex;
+  align-items:baseline;
 }
 /*_________ AND FOOTER_________*/
 
