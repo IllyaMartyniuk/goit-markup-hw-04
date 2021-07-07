@@ -50,6 +50,8 @@ img {
 }
 
 .menu-list {
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   padding: 0;
   list-style: none;
@@ -64,6 +66,8 @@ img {
   text-decoration: none;
 }
 .header-contact-link {
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   margin-left: auto;
   padding: 0;
